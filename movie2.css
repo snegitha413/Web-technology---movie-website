@@ -1,0 +1,242 @@
+:root {
+    --main-color: #c0392b;
+    --body-bg: #181616;
+    --box-bg: #221f1f;
+    --text-color: #ffffff;
+    
+    --nav-height: 60px;
+    --space-top: 30px;
+    }
+    
+    * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    
+    html {
+    font-size: 16px;
+    }
+    
+    body {
+    font-family: "Cairo", sans-serif;
+    background-color: var(--body-bg);
+    color: var(--text-color);
+    padding-top: var(--nav-height);
+    overflow: hidden;
+    }
+    
+    a {
+    text-decoration: none;
+    color: unset;
+    }
+    .container {
+     max-width: 1920px;
+     padding: 0 40px;
+     margin: auto;
+    }
+        
+    .nav-wrapper {
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     z-index: 99;
+     background-color: #000000;
+     }
+          
+    .nav {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     color: var(--text-color);
+     height: var(--nav-height);
+     }
+            
+    .nav a {
+     color: var(--text-color);
+      }
+            
+    .logo {
+     font-size: 2rem;
+     font-weight: 900;
+      }
+            
+    .nav-menu {
+     list-style-type: none;
+     display: flex;
+     align-items: center;
+     padding: 0 20px;
+      }
+            
+    .nav-menu li ~ li {
+     margin-left: 30px;
+       }
+          
+    .nav-menu a {
+     text-transform: uppercase;
+     font-weight: 700;
+      }
+            
+    .nav-menu a:hover {
+     color: var(--main-color);
+      }
+            
+    .nav-menu a.btn:hover,
+    a.logo:hover,
+    a.movie-item:hover {
+    color: unset;
+       }
+            
+    .btn {
+     color: var(--main-color);
+     padding: 0.25rem 1.5rem;
+     text-transform: uppercase;
+     font-size: 1.25rem;
+     font-weight: 700;
+     display: inline-flex;
+      position: relative;
+      align-items: center;
+    }
+            
+.input-field
+{
+ font-size: medium;
+ color:white;
+ padding:10px 0;
+ margin:6px 0px;
+ border-left:0;
+ border-top:0;
+ border-right:0;
+ outline:none;
+ background: transparent;
+ }
+.main-color {
+ color: var(--main-color);
+   }
+.box{
+    width:220px;
+    margin:35px auto;
+    position:relative;
+    box-shadow: 0 0 20px 9px cornsilk;
+    border-radius: 30px;
+    
+   }
+.movie-deatils
+{
+    margin:3% 0;
+
+}
+.left-box{
+    margin-left: 3%;;
+    color:#fff;
+    padding:20px;
+    font-family: "Cairo", sans-serif;
+}
+.casting img{
+    height:100px;
+    width:100px;
+    margin-right: 10px;
+    cursor: pointer;
+}   
+.box2{
+    font-family: "Cairo", sans-serif;
+    font-size:larger;
+}                     
+
+.content{
+    position: relative;
+    left:1000px;
+    bottom:500px;
+}
+.movie-img{
+    height: 500px;
+    box-shadow: -4px 4px 5px 0 lightblue;
+}
+.video-play-button {
+    position: absolute;
+    z-index: 10;
+    top: 80%;
+    left: 100px;
+    transform: translateX(-50%) translateY(-50%);
+    box-sizing: content-box;
+    display: block;
+    width: 32px;
+    height: 44px;
+    /* background: #fa183d; */
+    border-radius: 50%;
+    padding: 18px 20px 18px 28px;
+  }
+  
+  .video-play-button:before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 80px;
+    height: 80px;
+    background: #ba1f24;
+    border-radius: 50%;
+    animation: pulse-border 1500ms ease-out infinite;
+  }
+  
+  .video-play-button:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 80px;
+    height: 80px;
+    background: #fa183d;
+    border-radius: 50%;
+    transition: all 200ms;
+  }
+  
+  .video-play-button:hover:after {
+    background-color: darken(#fa183d, 10%);
+  }
+  .trailer{
+    position: relative;
+    top:60px;
+  }
+  .video-play-button img {
+    position: relative;
+    z-index: 3;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+  }
+  
+  .video-play-button span {
+    display: block;
+    position: relative;
+    z-index: 3;
+    width: 0;
+    height: 0;
+    border-left: 32px solid #fff;
+    border-top: 22px solid transparent;
+    border-bottom: 22px solid transparent;
+  }
+  .watch{
+      position: relative;
+      left: 60px;
+      bottom:40px;
+      font-family:"Cairo", sans-serif;
+      font-size:x-large;
+  }
+  @keyframes pulse-border {
+    0% {
+      transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+      opacity: 1;
+    }
+    100% {
+      transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+      opacity: 0;
+    }
+  }

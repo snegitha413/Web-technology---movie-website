@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="review.xsl"?>
+<feedback xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="review.xsd" >
+    <person>
+       <comments> I'm really happy with the service.
+            Everything is as it shows and I have no issues. </comments>
+       <name> -Aishwarya</name>
+    </person>
+    <person1>
+       <comments1>Js is a great movie website to use with a variety of options that you can choose to fit your needs.</comments1>
+       <name1> -Jaison</name1>   
+    </person1>
+    <person2>
+        <comments2>Js has been resourceful and easy to operate. 
+            I have always recommended this service to my friends and family. 
+            </comments2>
+        <name2>-Vaishnavi</name2>     
+    </person2>
+    <person3>
+        <comments3> If you are looking for something to just come home and relax to after a long day, then this is perfect for you!</comments3>
+        <name3>-Ajay</name3>     
+    </person3>
+    <person4>
+        <comments4>I liked your website it has latest movies. when we feel lonely or bored a best place to enjoy!!</comments4>
+        <name4>-Prem</name4>     
+    </person4>
+</feedback>

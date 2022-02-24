@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="movie.xsl"?>
+<catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="movie4.xsd">
+<cd>
+<title>Spiderman no way home</title>
+<rating>9.9</rating>
+</cd>
+<cd>
+<title>Black window</title>
+<rating>9.8</rating>
+</cd>
+<cd>
+<title>Shallow</title>
+<rating>10</rating>
+</cd>
+<cd>
+<title>monster hunt</title>
+<rating>7</rating>
+</cd>
+<cd>
+<title>pinnochio</title>
+<rating>8.9</rating>
+</cd>
+<cd>
+<title>Sylvias Mother</title>
+<rating>8.10</rating>
+</cd>
+<cd>
+<title>Tenet</title>
+<rating>9.50</rating>
+</cd>
+<cd>
+<title>X-men</title>
+<rating>9</rating>
+</cd>
+<cd1>
+<title1>Flash</title1>
+<rating1>10</rating1>
+</cd1>
+<cd1>
+<title1>Money heist</title1>
+<rating1>9</rating1>
+</cd1>
+<cd1>
+<title1>Friends</title1>
+<rating1>9.5</rating1>
+</cd1>
+<cd1>
+<title1>Little things</title1>
+<rating1>9.8</rating1>
+</cd1>
+<cd1>
+<title1>Stranger things</title1>
+<rating1>10</rating1>
+</cd1>
+<cd1>
+<title1>Brooklyn 99</title1>
+<rating1>8.4</rating1>
+</cd1>
+<cd2>
+<title2>Luca</title2>
+<rating2>8.9</rating2>
+</cd2>
+<cd2>
+<title2>Soul</title2>
+<rating2>9</rating2>
+</cd2>
+<cd2>
+<title2>Scoob</title2>
+<rating2>8</rating2>
+</cd2>
+<cd2>
+<title2>Over the moon</title2>
+<rating2>8.90</rating2>
+</cd2>
+<cd2>
+<title2>Dragon rider</title2>
+<rating2>8</rating2>
+</cd2>
+<cd2>
+<title2>Boss baby2</title2>
+<rating2>9.9</rating2>
+</cd2>
+<cd2>
+<title2>Clifford the Big Red dog </title2>
+<rating2>9</rating2>
+</cd2>
+</catalog>

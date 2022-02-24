@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="ap">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="package" type="xs:string" />
+                <xs:element name="from" type="xs:string" />
+                <xs:element name="to" type="xs:string" />
+                <xs:element name="ftime" type="xs:string" />
+                <xs:element name="ttime" type="xs:string" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="schedule" />
+</xs:schema>
